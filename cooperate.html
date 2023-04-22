@@ -22,9 +22,6 @@
         ================================================== -->
         <meta name="format-detection" content="telephone=no">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-      
-        <!-- theme meta -->
-        <meta name="theme-name" content="timer" />
 
         
         <!-- Template CSS Files
@@ -52,18 +49,16 @@
         ==================================================
         Header Section Start
         ================================================== -->
-		<div id="section_start"></div>
-		<!--
 <section class="top-bar animated-header">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-					
+					<!--
                     <a class="navbar-brand" href="index.html">
                         <img src="../images/logo.png" alt="logo">
                     </a>
-					
+					-->
                     <a class="navbar-brand" href="index.html">
                         C.I.Lab 創意整合研究室
                     </a>
@@ -116,59 +111,89 @@
         </div>
     </div>
 </section>
+
+
+        <!-- 
+        ================================================== 
+            Global Page Section Start
+        ================================================== -->
+		<!--
+        <section class="global-page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h2>Full width blog</h2>
+                            <ol class="breadcrumb list-inline text-center">
+                                <li class="list-inline-item">
+                                    <a href="index.html">
+                                        <i class="ion-ios-home"></i>
+                                        Home  &nbsp; &nbsp;/
+                                    </a>
+                                </li>
+                                <li class="active list-inline-item">Blog</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 -->
-
-
-<!--
-==================================================
-About Section Start
-================================================== -->
-<section id="about">
+		
+<!--=====================================
+=            Full Width Blog            =
+======================================-->
+<section id="blog-full-width">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-sm-6">
-        <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-          <h4>
-            黃臣鴻
-          </h4>
-          <p>
-            創意整合研究室<br>
-			Creative Integration Laboratory
-          </p>
-		  <h5>
-            研究室目標
-          </h5>
-          <p>
-          	學習、研究及開發AR/VR、互動媒體及遊戲設計之應用<br>
-			培育AR/VR、互動媒體及遊戲設計之研究人才<br>
-			協助業者於AR/VR、互動裝置及遊戲之開發
-			</p>
-		<h5>
-            研究領域
-          </h5>
-          <p>
-          	擴增實境 / 虛擬實境 Augmented Reality / Virtual Reality<br>
-			互動設計 Interactive Design<br>
-			遊戲設計 Game Design
-			</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-6">
-        <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-          <img src="images/about/about.jpg" alt="">
-        </div>
+      <div class="col-md-12">
+        <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
+          <div class="blog-post-image">
+			<!--
+            <a href="post-fullwidth.html"><img class="img-fluid" src="images/blog/post-1.jpg" alt="" /></a>
+            -->
+		  </div>
+          <div class="blog-content">
+            <h2 class="blogpost-title">
+              擴增實境、虛擬實境
+            </h2>
+		  <ol>
+			<li>開發擴增實境、虛擬實境之相關應用及軟體&nbsp;</li>
+			<li>進行相關議題之研究及合作&nbsp;</li>
+			<li>AR/VR之教學、工作營&nbsp;</li>
+          </ol>
+          </div>
+
+          <div class="blog-content">
+            <h2 class="blogpost-title">
+              互動設計
+            </h2>
+		  <ol>
+			<li>互動應用軟體開發、互動裝置製作&nbsp;</li>
+			<li>使用者介面設計與開發&nbsp;</li>
+			<li>互動設計之教學、工作營&nbsp;</li>
+          </ol>
+          </div>
+          <div class="blog-content">
+            <h2 class="blogpost-title">
+              遊戲設計
+            </h2>
+		  <ol>
+ 			<li>遊戲設計及開發&nbsp;</li>
+			<li>遊戲設計之教學、工作營&nbsp;</li>
+          </ol>
+          </div>		  
+			
+        </article>
       </div>
     </div>
   </div>
-</section> <!-- /#about -->
-
+</section>
 
             <!--
             ==================================================
             Call To Action Section Start
             ================================================== -->
-			<div id="section_end"></div>
-			<!--
             <section id="call-to-action">
                 <div class="container">
                     <div class="row content-justify-between">
@@ -191,10 +216,8 @@ About Section Start
                     </div>
                 </div>
             </section>
-			-->
 
-
-	<!-- Template Javascript Files
+  	<!-- Template Javascript Files
 	================================================== -->
 	<!-- jquery -->
 	<script src="plugins/jQurey/jquery.min.js"></script>
@@ -213,11 +236,5 @@ About Section Start
 	<script src="plugins/facncybox/jquery.fancybox.js"></script>
 	<!-- template main js -->
 	<script src="js/main.js"></script>
-	<script>
-		$(document).ready(function(){
-		$('#section_start').load("section_start.html");
-		$('#section_end').load("section_end.html");
-		});
-	</script>
  	</body>
 </html>
