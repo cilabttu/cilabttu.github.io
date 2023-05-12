@@ -6,35 +6,31 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://zetetic.me/</loc>
-  <lastmod>2023-05-12</lastmod>
-</url>
-<url>
   <loc>https://www.zetetic.me/</loc>
   <lastmod>2023-05-12</lastmod>
 </url>
 <url>
-  <loc>https://zetetic.me/index.html</loc>
+  <loc>https://www.zetetic.me/index.html</loc>
   <lastmod>2023-05-12</lastmod>
 </url>
 <url>
-  <loc>https://zetetic.me/mine.html</loc>
+  <loc>https://www.zetetic.me/mine.html</loc>
   <lastmod>2023-05-12</lastmod>
 </url>
 <url>
-  <loc>https://zetetic.me/paper</loc>
+  <loc>https://www.zetetic.me/paper</loc>
   <lastmod>2023-05-12</lastmod>
 </url>
 <url>
-  <loc>https://zetetic.me/project.html</loc>
+  <loc>https://www.zetetic.me/project.html</loc>
   <lastmod>2023-05-12</lastmod>
 </url>
 <url>
-  <loc>https://zetetic.me/product_VR.html</loc>
+  <loc>https://www.zetetic.me/product_VR.html</loc>
   <lastmod>2023-05-12</lastmod>
 </url>
 <url>
-  <loc>https://zetetic.me/product_AR.html</loc>
+  <loc>https://www.zetetic.me/product_AR.html</loc>
   <lastmod>2023-05-12</lastmod>
 </url>
 
